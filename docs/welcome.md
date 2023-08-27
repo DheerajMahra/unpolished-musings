@@ -1,8 +1,9 @@
 ---
+title: Welcome to Digital Garden
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# The Garden of curiosity and daily observations
 
 Let's discover **Docusaurus in less than 5 minutes**.
 

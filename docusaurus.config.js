@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Unpolished musings',
+  tagline: 'Cultivating insights through daily observations and boundless curiosity in my digital garden of knowledge 🌻',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -39,6 +39,7 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
+          showLastUpdateTime: true
         },
         blog: {
           showReadingTime: true,
@@ -56,17 +57,17 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'Unpolished musings',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Unpolished musings Logo',
           src: 'img/logo.svg',
         },
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'digitalGardenSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Digital Garden',
           },
           { to: '/blog', label: 'Blog', position: 'left' },
         ],
@@ -114,7 +115,12 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Unpolished musings, Cultivated with curiosity by Dheeraj Mahra`,
+      },
+      docs: {
+        sidebar: {
+          hideable: true,
+        }
       },
       prism: {
         theme: lightCodeTheme,

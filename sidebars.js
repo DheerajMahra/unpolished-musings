@@ -7,8 +7,8 @@ const INCLUDE_FILES = ["md", "mdx"];
 
 /** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
 const sidebars = {
-  tutorialSidebar: [
-    'intro',
+  digitalGardenSidebar: [
+    'welcome',
     {
       type: 'category',
       label: 'Software Engineering',
