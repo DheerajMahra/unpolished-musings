@@ -5,44 +5,20 @@ sidebar_position: 1
 
 # The Garden of curiosity and daily observations
 
-Let's discover **Docusaurus in less than 5 minutes**.
+![Welcome to my Digital Garden](../static/img/welcome.png)
 
-## Getting Started
+A digital garden is like an online journal or personal website, but with a twist. It's a virtual space where someone can cultivate and share their thoughts, ideas, and knowledge in a more dynamic and interconnected way.
 
-Get started by **creating a new site**.
+Imagine a traditional blog as a series of chronological posts, like a diary. In contrast, a digital garden is more like tending to a garden. Instead of writing isolated articles or posts, content is organized as a network of interconnected notes, articles, and ideas. These "notes" can grow and evolve over time, linking to each other to form a web of knowledge.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+It's called a "garden" because, like a real garden, it requires care and nurturing. Authors tend to their digital gardens by continuously adding, pruning, and connecting ideas. Readers can explore these gardens by following links and wandering through the interconnected paths of information.
 
-### What you'll need
+In essence, a digital garden encourages a more organic and non-linear way of sharing and exploring knowledge, fostering a sense of curiosity and serendipity as you explore the interconnected ideas within it.
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+:::info
+Well, this long intro is GPT-generated. This goes againt the idea of a digital garden at first place. I'm in a hurry to release this garden to the web as of now.
 
-## Generate a new site
+I will revisit this section soon and will write a personal understanding of what a Digital Garden is and how I'm going to cultivate the plants of my ideas and curiosity in this small space of the web.
 
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+🪴 🪴 🪴 🪴 🪴 🪴 🪴 🪴 🪴 🪴 🪴 🪴 🪴 🪴 🪴 🪴 🪴 🪴 🪴 🪴 🪴 🪴
+:::
