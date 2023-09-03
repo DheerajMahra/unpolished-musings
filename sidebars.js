@@ -24,13 +24,6 @@ const sidebars = {
         {
           type: 'category',
           label: 'JavaScript',
-          link: {
-            type: 'generated-index',
-            title: 'JavaScript',
-            description: 'Learn about the most important JavaScript concepts!',
-            slug: '/category/software-engineering/javascript',
-            keywords: ['software-engineering']
-          },
           items: [getItems('software-engineering/javascript')],
         },
       ],
@@ -50,13 +43,6 @@ const sidebars = {
         {
           type: 'category',
           label: 'Chemistry',
-          link: {
-            type: 'generated-index',
-            title: 'Chemistry',
-            description: 'Learn about the most important Chemistry concepts!',
-            slug: '/category/science/chemistry',
-            keywords: ['science']
-          },
           items: [getItems('science/chemistry')],
         },
       ],
