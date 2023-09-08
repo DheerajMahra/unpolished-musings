@@ -1,7 +1,7 @@
 ---
 title: A common JSX error
 sidebar_position: 1
-tags: ["React", "JSX"]
+tags: ["React", "JSX", "JavaScript"]
 ---
 
 # Syntax error: Adjacent JSX elements must be wrapped in an enclosing tag
