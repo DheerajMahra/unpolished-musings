@@ -1,6 +1,5 @@
 ---
 title: A common JSX error
-sidebar_position: 1
 tags: ["React", "JSX", "JavaScript"]
 ---
 

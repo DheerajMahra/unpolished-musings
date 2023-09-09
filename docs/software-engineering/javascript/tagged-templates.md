@@ -1,6 +1,5 @@
 ---
 title: Tagged templates
-sidebar_position: 1
 tags: ["JavaScript", "ES6"]
 ---
 
