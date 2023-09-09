@@ -8,8 +8,7 @@ tags: ["React", "JSX", "JavaScript"]
 
 ![Syntax error: Adjacent JSX elements must be wrapped in an enclosing tag](../../../static/img/2023/jsx-syntax-error.png)
 
-# Let's understand how JSX is compiled
-
+## Let's understand how JSX is compiled
 :::info
 These notes use the Classic React Runtime (old JSX transform) to convert the JSX into the `React.createElement` calls. React 17 introduces a new Automatic React Runtime which helps the compiler to import special function to transpile JSX without importing React into the component. <br />
 [Read More](https://legacy.reactjs.org/blog/2020/09/22/introducing-the-new-jsx-transform.html) here about the official announcement. Checkout the [automatic jsx transformation function code here](https://github.com/facebook/react/tree/main/packages/react/src/jsx)
@@ -42,7 +41,7 @@ React.createElement(
 );
 ```
 
-# Let's try to transpile unwrapped JSX elements
+## Let's try to transpile unwrapped JSX elements
 
 Consider the code below having two span tags which are not wrapped in an enclosing tag.
 
@@ -78,7 +77,7 @@ Again, a **syntax error**!
 
 > We need to somehow get rid of the two `createElement` calls and combine them into a single `createElement` call
 
-# Wrap the JSX elements into a parent element
+## Wrap the JSX elements into a parent element
 
 ```jsx
 function HelloWorld(props) {
@@ -111,7 +110,7 @@ A valid syntax! ✅
 Above code works but inserts an extra `div` element into the DOM
 :::
 
-# React Fragments
+## React Fragments
 
 React gives us `React.Fragment` component which acts as a parent element to wrap the adjacent JSX elements which inserting any extra elements to the DOM tree.
 
